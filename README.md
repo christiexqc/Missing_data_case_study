@@ -1,5 +1,6 @@
 # Missing_data_case_study
 missing data case study
+
 data:missing_data.csv
 notebook: missing_data_case_study.ipynb
 
@@ -22,3 +23,5 @@ The high high majority of missing values in tech companies come from the fact th
 
 
 Therefore, the best way to deal with missing values is to code them as such in your dataset and use them throughout your analysis. If it is a categorical variable, just create a new level “missing”. If it is a continuous variable, replace the missing value with a very large/small number, clearly outside of the range of the variable, i.e. 10^9 or something like that. And then, use a model which is not affected by outliers, like for instance decision tree-based classifiers.
+
+In this project I explored on how to deal with missing data.
